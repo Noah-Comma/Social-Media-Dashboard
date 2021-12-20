@@ -1,0 +1,35 @@
+@import "config";
+
+.darkMode {
+  background-color: $drk-BG;
+
+  h1,
+  h2 {
+    color: $drk-textColor2;
+    opacity: 1;
+  }
+
+  p {
+    color: $drk-textColor1;
+  }
+
+  .container__title {
+    border-bottom: 1px solid rgba(#fff, 0.4);
+  }
+
+  .card,
+  .container__overview--card {
+    background-color: $drk-cardBG;
+
+    &:hover {
+      cursor: pointer;
+      background-color: hsl(228, 28%, 30%);
+    }
+  }
+
+  .slider {
+    &::before {
+      background-color: $drk-cardBG;
+    }
+  }
+}

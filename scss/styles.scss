@@ -1,0 +1,69 @@
+@import "config";
+@import "responsive";
+@import "card";
+@import "overview";
+@import "toggle";
+@import "darkMode";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+span {
+  @include flexDisplay(row);
+  align-items: center;
+  gap: 4px;
+}
+
+.container {
+  display: grid;
+  row-gap: 1rem;
+  padding: 1.5rem;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid hsla(0, 0, 0, 0.5);
+
+    h2 {
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-weight: 700;
+      opacity: 0.5;
+    }
+  }
+
+  &__darkMode {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    align-items: center;
+
+    p {
+      font-weight: 700;
+      opacity: 0.5;
+      font-size: 18px;
+    }
+  }
+
+  &__card {
+    @include flexDisplay(column);
+    gap: 1.5rem;
+  }
+
+  &__overview {
+    @include flexDisplay(column);
+    gap: 1.5rem;
+    padding-top: 2.5rem;
+  }
+}

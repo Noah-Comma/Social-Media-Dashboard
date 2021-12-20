@@ -1,0 +1,94 @@
+@import "config";
+
+.card {
+  @include flexDisplay(column);
+  align-items: center;
+  background-color: $lt-cardBG;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  gap: 1.5rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(227, 47%, 90%);
+    transition: 0.4s;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    img {
+      width: 24px;
+    }
+
+    p {
+      font-weight: 700;
+      opacity: 0.4;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 0 !important;
+    .followers {
+      opacity: 0.4;
+      font-weight: 400;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+.amount-today {
+  p {
+    font-weight: 700;
+  }
+  img {
+    width: 8px;
+  }
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  .amount-today {
+    p {
+      color: $limeGreen;
+    }
+  }
+}
+
+.card-4 {
+  .amount-today {
+    p {
+      color: $brightRed;
+    }
+  }
+}
+
+.card-1 {
+  @include borderTop($facebook);
+}
+.card-3 {
+  border-radius: 2px 2px 0.5rem 0.5rem;
+}
+.card-2 {
+  @include borderTop($twitter);
+}
+
+.card-4 {
+  @include borderTop($youtube);
+}
+
+.card-3-border {
+  padding-top: 0.35rem;
+  background: $instagram;
+  border-radius: 0.5rem 0.5rem 1rem 1rem;
+}

@@ -1,0 +1,82 @@
+@import "config";
+
+.container__overview {
+  h2 {
+    opacity: 0.5;
+    letter-spacing: 0.3px;
+  }
+
+  .overview-cont {
+    display: grid;
+    gap: 1rem;
+  }
+
+  &--card {
+    display: grid;
+    grid-template-areas: "a b" "c d";
+    justify-content: space-between;
+    background-color: $lt-cardBG;
+    row-gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: hsl(227, 47%, 90%);
+      transition: 0.4s;
+    }
+
+    img {
+      width: 21px;
+    }
+
+    p {
+      grid-area: a;
+      font-weight: 700;
+      opacity: 0.5;
+    }
+
+    h1 {
+      grid-area: c;
+    }
+
+    img {
+      grid-area: b;
+      justify-self: end;
+    }
+
+    span {
+      grid-area: d;
+
+      img {
+        width: 10px;
+      }
+
+      p {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.overview-1,
+.overview-3,
+.overview-4,
+.overview-5,
+.overview-6 {
+  span {
+    p {
+      color: $limeGreen;
+    }
+  }
+}
+
+.overview-2,
+.overview-7,
+.overview-8 {
+  span {
+    p {
+      color: $brightRed;
+    }
+  }
+}
