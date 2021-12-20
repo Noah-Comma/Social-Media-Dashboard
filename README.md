@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Noah-Comma/Social-Media-Dashboard)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://noohnoah-social-media-dashboard.netlify.app/)
 
 ## My process
 
@@ -81,17 +81,17 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [W3 School](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Mozilla Docs](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Youtube - Kevin Powell] - This video helped me in using CSS and JavaScript to create the dark mode theme.
+- [W3 School](https://www.w3schools.com/cssref/default.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Youtube - Kevin Powell](https://www.youtube.com/watch?v=wodWDIdV9BY&t) - This video helped me in using CSS and JavaScript to create the dark mode theme.
 
 
 
 ## Author
 
 - Website - [NoohNoah](https://www.your-site.com)
-- Frontend Mentor - [@Noah-Comma](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@thenoohnoah](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Noah-Comma](https://www.frontendmentor.io/profile/Noah-Comma)
+- Twitter - [@thenoohnoah](https://www.twitter.com/thenoohnoah)
 
 
 ## Further Info. 
