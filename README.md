@@ -91,7 +91,7 @@ const proudOfThisFunc = () => {
 
 - Website - [NoohNoah](https://www.your-site.com)
 - Frontend Mentor - [@Noah-Comma](https://www.frontendmentor.io/profile/Noah-Comma)
-- Twitter - [@thenoohnoah](https://www.twitter.com/thenoohnoah)
+- Twitter - [@thenoahnooh](https://www.twitter.com/thenoohnoah)
 
 
 ## Further Info. 
